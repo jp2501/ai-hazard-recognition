@@ -1,0 +1,31 @@
+# --- Python (backend) ---
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/uploads/
+backend/outputs/
+backend/snapshots/
+backend/backup/
+backend/*.npy
+backend/*.jpg
+backend/*.jpeg
+backend/*.png
+backend/*.mp4
+backend/*.avi
+backend/event_log.csv
+backend/yolov8*.pt
+
+# If you choose headless, still ignore the large model file
+*.pt
+
+# --- Node/React (frontend) ---
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+
+# --- IDE/OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+.zip
